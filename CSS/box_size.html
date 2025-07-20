@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Size Card Components</title>
+    <style>
+        *,::before,::after{
+            box-sizing: border-box
+            margin=0px;
+        }
+        body{
+            background-color:bisque;
+        }
+        .card{
+            background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            width: 500px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .description{
+            color: black;
+            text-transform: capitalize;
+            line-height: 1.2;
+        }
+        .name{
+            color: aqua;
+            text-transform: uppercase;
+        }
+        .btn:hover{
+            background-color: blue;
+            
+        }
+        .btn{
+            border-radius: 20px;
+            }
+        .title{
+            color: goldenrod;
+            background-color: aqua;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <header>
+            <p class="name">Tap Academy</p>
+        </header>
+        <h1 class="title">Gamify Learning Simplify Employment</h1>
+        <p class="description">
+            TapAcademy blends AR,Animation and AI to tech coding and enhance
+            your skills by placing your leg into the IT field.
+        </p>
+        <button class="btn">Learn More</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Navigation</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: aqua;
+            font-size: 15px;
+            font-family: cursive;
+        }
+        .div1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            display: flex;                                                      
+            flex-direction: row;
+            /* align-items: flex-start; */
+            justify-content:start;
+            column-gap: 25px;
+            flex-wrap: wrap;
+            background-color: rgb(218, 165, 32);
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="item item1"><a href="">HOME</a></div>
+        <div class="item item2"><a href="">COURSE</a></div>
+        <div class="item item3"><a href="">REVIEWS</a></div>
+        <div class="item item4"><a href="">CONTACT-US</a></div>
+    </div>
+</body>
+</html>
